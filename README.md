@@ -14,6 +14,14 @@ Run the bash script using the following syntax
 
     bash byzanz-record-window.sh <delay_in_seconds> <duration_in_seconds> <filename>
 
-#### Example:
+ - After running the script, it will wait for you to select the window that you want to record.
+ - Go to the window (alt-tab) you want to capture. Click on it.
+ - It will now wait for <delay_in_seconds> seconds before it starts recording the window that you have selected for the duration of <duration_in_seconds> that you had mentioned while running the script.
+ - The final GIF will be saved in the same repository from where you had run the script under file name <filename> as given in the command.
+
+###Example
 
     bash byzanz-record-window.sh 5 20 output.gif
+
+###Demo
+![](output.gif?raw=true)
