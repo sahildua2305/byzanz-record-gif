@@ -24,4 +24,4 @@ Run the bash script using the following syntax
     bash byzanz-record-window.sh 5 20 output.gif
 
 ###Demo
-![](output.gif?raw=true)
+![](screengrab/output.gif?raw=true)
