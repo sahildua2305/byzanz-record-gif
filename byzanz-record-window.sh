@@ -29,3 +29,7 @@ for (( i=$DELAY; i>0; --i )) ; do
 done
 
 byzanz-record --verbose --delay=0 --x=$X --y=$Y --width=$W --height=$H $D
+
+# Show notication upon recording completion
+notify-send "Byzanz recording" "
+Recording completed" -t 2000
